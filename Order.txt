@@ -1,0 +1,21 @@
+git init
+git status
+
+git add filename
+git add .			# Все файлы
+
+git commit -m 'Comment'
+
+# Отмена изменений файлов
+	git clean -f  	        	# Untracked
+
+#modified
+	git restore filename
+	git restore . 		        # Все файлы
+
+#staged 
+	git restore -- staged .
+	git reset
+
+# commit
+	git reset HEAD~				
