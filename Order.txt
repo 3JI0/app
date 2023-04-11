@@ -24,3 +24,6 @@ git commit -m 'Comment'
 	git congig --global user.email zezinav@gmail.commit
 	git config --global user.name 3JI0
 	
+# remote 
+	git remote add origin https://github.com/3JI0/app.git
+	git push -u origin main
