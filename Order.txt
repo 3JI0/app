@@ -19,3 +19,8 @@ git commit -m 'Comment'
 
 # commit
 	git reset HEAD~				
+	
+# configuration
+	git congig --global user.email zezinav@gmail.commit
+	git config --global user.name 3JI0
+	
